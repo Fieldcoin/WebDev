@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="alternate" hreflang="cn" href="https://www.fieldcoin.io/"/>
+  <title>Fieldcoin.io - 创造第一个由区块链为基础的土地交易市场</title>
+  <meta name="description" content=" 创造第一个由区块链为基础的土地交易市场" />
+  <link rel="icon" href="../img/fieldcoin-ico.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="../css/fieldcoinstyle.css" rel="stylesheet">
+  <link href="../css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  
+<body>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=127530720666767';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2724511-86"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2724511-86');
+</script>
+<div id="preloader"><div id="status">&nbsp;</div></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="https://fieldcoin.io">Fieldcoin</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#pres">介绍</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">白皮书<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../pdf/White-paper-09-18" target="_blank">白皮书</a></li>
+            <li><a href="../pdf/Fieldcoin-onepage-Feb2018" target="_blank">Light paper</a></li>
+           <li><a href="../pdf/Fieldcoin-Legal-Paper.pdf" target="_blank">Legal paper</a></li>
+          </ul>
+        </li>
+        <li><a href="#rm">路线图</a></li>
+       
+        <li class="line"><a href="https://www.facebook.com/fieldcoin/" target="_blank" class="icoFacebook wow fadeInRight" data-wow-duration="1.1s" data-wow-delay="0.1s" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li class="line"><a href="https://twitter.com/Fieldcoin" target="_blank" class="icoTwitter wow fadeInRight"  data-wow-duration="1.2s" data-wow-delay="0.2s" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li class="line"><a href="https://www.linkedin.com/company/11339899/" target="_blank" class="icoLinkedin wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.3s" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li class="line"><a href="https://fieldcoin.slack.com/" target="_blank" class="icoSlack wow fadeInRight" data-wow-duration="1.4s" data-wow-delay="0.4s" title="Slack"><i class="fa fa-slack"></i></a></li>
+            <li class="line"><a href="https://www.youtube.com/channel/UC6_aNHKd-nMTduWb1ACmnhA" target="_blank" class="icoYoutube wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+            <li class="line"><a href="https://t.me/fieldcoin" target="_blank" class="icoTelegram wow fadeInRight" data-wow-duration="1.6s" data-wow-delay="0.6s" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+        <li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../img/team/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>用户名</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>密码</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">登录</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> 记住我
+      </label>
+    </div>
+
+    <div class="container mb-5" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">放弃</button>
+      <span class="psw"> <a href="#">忘记密码？</a></span>
+    </div>
+  </form>
+</div>
+
+        
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="http://www.fieldcoin.io" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="d-inline-block" width ="30" height="17" src="../img/lang/chinese.jpg" alt="Translate"/><span class="caret"></span></a><div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="https://fieldcoin.io/">English</a><div class="dropdown-divider"></div><a class="dropdown-item" href="https://fieldcoin.io/fr/index.html">Français</a><div class="dropdown-divider"></div><a class="dropdown-item" href="https://fieldcoin.io/es/index.html">Español</a><div class="dropdown-divider"></div><a class="dropdown-item" href="https://fieldcoin.io/ch/index.html">中国</a><div class="dropdown-divider"></div><a class="dropdown-item" href="https://fieldcoin.io/ru/index.html">русский</a></div></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+    	<div id="particles-js" class="view intro-1 parallax2 intro bg">
+            <div class="full-bg-img">
+                <div class="container flex-center">
+                    <div class="row">
+                        <div class="col-xs-12 mb-3">
+                            <div class="text-center">
+                            	<img id="fieldCoinLogo" class="mb-2 wow fadeInUp img-fluid" data-wow-duration="2.5s" data-wow-delay="0.4s" src="../img/fieldcoin-logo.png" alt="Fieldcoin"/>
+                                <h1 class="logo wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.4s">Fieldcoin</h1>
+                                <h5 class="mb-3 mt-1 ombre font-bold wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s">创造第一个由区块链为基础的土地交易市场</h5> 
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+<!--<div class="announcement">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 mt-5 mb-5">
+                <div class="text-center">
+                    <a class="btn wow fadeInUp" role="button" href="https://fieldcoin.io/airdrop.html" target="_blank">获得10％的奖金</a>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>-->
+
+<div class="newsletter">
+	<div class="container">
+         <div class="page-header">
+         	<h1>加入邮件列表</h1>
+          </div>
+         <div class="jumbotron wow fadeInUp">
+          	<p style="color:rgba(235,235,235,1.00); font-size:24px;">FCO （Field Coin Offering） 于2018年12月4日开始。</p>
+<div id="mlb2-8574472" class="ml-subscribe-form ml-subscribe-form-8574472">
+    <div class="ml-vertical-align-center">
+        <div class="subscribe-form ml-block-success" style="display:none">
+            <div class="form-section">
+                <p>谢谢！ 您订阅了时事通讯.</p>
+            <p>如果您没有收到电子邮件，请检查您的垃圾邮件文件夹。</p>
+            </div>
+        </div>
+        <form class="ml-block-form" action="https://landing.mailerlite.com/webforms/submit/h1q9k9" data-id="854730" data-code="h1q9k9" method="POST" target="_blank">
+            <div class="subscribe-form">
+                <div class="form-section">
+                    <div class="form-group ml-field-email ml-validate-required ml-validate-email">
+                        <input type="email" name="fields[email]" class="form-control" placeholder="Email*" value="" autocomplete="email" x-autocompletetype="email" spellcheck="false" autocapitalize="off" autocorrect="off">
+                    </div>
+                    <div class="form-group ml-field-name ml-validate-required">
+                        <input type="text" name="fields[name]" class="form-control" placeholder="Name*" value="" autocomplete="name" x-autocompletetype="name" spellcheck="false" autocapitalize="off" autocorrect="off">
+                    </div>
+                </div>
+                <div class="form-section ml-validate-required">
+                    <label class="confirmation_checkbox">
+                        <input type="checkbox"> 我同意收到时事通讯。
+                    </label>
+                </div>
+                <input type="hidden" name="ml-submit" value="1" />
+                <button type="submit" class="primary">
+                   注册
+                </button>
+                <button disabled="disabled" style="display: none;" type="button" class="loading">
+                    <img src="https://static.mailerlite.com/images/rolling@2x.gif" width="20" height="20" style="width: 20px; height: 20px;">
+                </button>
+            </div>
+        </form>
+        <script>
+            function ml_webform_success_8574472() {
+                var $ = ml_jQuery || jQuery;
+
+                $('.ml-subscribe-form-8574472 .ml-block-success').show();
+                $('.ml-subscribe-form-8574472 .ml-block-form').hide();
+            };
+        </script>
+    </div>
+</div>
+<script type="text/javascript" src="https://static.mailerlite.com/js/w/webforms.min.js?v03ee2804ef2f008535475a5d62f02f94"></script>
+            </div> 
+            <div style="height:100px;"></div>      
+</div>
+</div>
+
+<div id="pres" class="ultimatevalue">
+	<div class="container">
+    	 <div class="page-header">
+         <h1>土地是终极价值的来源</h1>
+         </div>
+    	<div class="row">
+        	<div class="col-md-6 mb-5 wow fadeInUp"><p>我们的项目和最近三个最具颠覆性的经济创新紧密相连：区块链技术, 农商科技4.0 和众筹。</p>
+
+<p>Fieldcoin 集团的任务是把区块链技术带入土地财产交易和农业众筹项目，同时创造一个稳定的交易工具去简化土地和农商兼并的过</p>程
+<p>今后，Fieldcoin 集团会创造第一个去中心化的土地财产管理全球市场，整合国家基于区块链的注册 系统，方便个人之间的交易</p>
+<br />
+
+ <a class="btn btn-success wow fadeInUp mb-3" role="button" data-wow-duration="1.4s" data-wow-delay="0.4s" href="../pdf/White-paper-09-18.pdf" target="_blank">白皮书</a> <a class="btn btn-success wow fadeInUp" role="button" data-wow-duration="1.5s" data-wow-delay="0.5s" href="../pdf/Fieldcoin-onepage-Feb2018.pdf" target="_blank">一页</a> <a class="btn btn-success wow fadeInUp" role="button" data-wow-duration="1.5s" data-wow-delay="0.5s" href="../pdf/Fieldcoin-Legal-Paper.pdf" target="_blank">法律文件</a>
+</div>
+            <div class="col-md-6 mb-5 wow fadeInUp"><div class="embed-responsive embed-responsive-16by9"><iframe width="100%" height="380" src="https://www.youtube-nocookie.com/embed/pgLtaF1w-eQ?rel=0" title="Fieldcoin" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></div></div>
+        </div>
+    </div>
+</div>
+
+<div class="tricon">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-5 mt-5">
+        <div class="text-center wow fadeInLeft">
+        <div class="icon_box mb-3"><img src="../img/pictos/fieldcoin-tradeback.png" width="100" height="100" alt="fieldcoin buy back tokens"/></div>
+        <h4>交易后退令牌</h4><p style="text-align:center;">保护令牌的价值</p>
+        </div>
+        </div>
+                    
+        <div class="col-sm-6 col-lg-4 mb-5 mt-5">
+        <div class="text-center wow fadeInUp">
+        <div class="icon_box mb-3"><img src="../img/pictos/fieldcoin-proofofasset.png" width="100" height="100" alt="fieldcoin proof of assets"/></div>
+        <h4>验证的资产</h4><p style="text-align:center;">用你的代币购买土地</p></div>
+        </div>
+                    
+        <div class="col-sm-6 col-lg-4 mb-5 mt-5">
+        <div class="text-center wow fadeInRight">
+        <div class="icon_box mb-3"><img src="../img/pictos/fieldcoin-proofofconcept.png" width="100" height="100" alt="fieldcoin proof of concept"/></div>
+        <h4>验证的概念</h4><p style="text-align:center;">在实体经济中的实际应用</p></div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="monetize">
+    <div class="container">
+        <div class="page-header"><h1>从IT交换和管理农业用地</h1></div>
+            <div class="row">
+            <div class="col-md-6 mb-5 wow fadeInUp">
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/iS9LbASopwk?rel=0" title="fieldcoin" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+            <div class="col-md-6 mb-5 wow fadeInUp">
+            <p>Fieldcoin Ltd将创建世界上第一个分散土地管理的全球市场，该市场将协调基于国家的区块链登记系统，以促进个人之间的交易。</p>
+            <p>Fieldcoin Ltd将把土地所有权整合到其生态系统中，并使用ERC721令牌将区块链上的物业货币化。</p>
+            <p>Fieldcoin ERC20的持有人可以在平台上获得全部土地所有权，并且能够在选择种植的作物和远程管理农田的类型的同时购买，出售和交易他们的房产。</p>
+            </div>
+        </div>
+    </div>
+</div>
+        
+         <div id="mission" class="mission">
+        	<div class="container">
+           		<div class="page-header">
+                    <h1>Fieldcoin 使命</h1>
+                 </div>
+            	<div class="row text-center">
+                	<div class="col-md-6 wow fadeInUp">
+                    <div class="mb-5"><span class="glyphicon glyphicon-apple" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>教育土地所有权和农业综合企业的重要性。</p></div>
+                    <div class="mb-5"><span class="glyphicon glyphicon-qrcode" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>创建一个特定的令牌来交易土地。</p></div>
+                    <div><span class="glyphicon glyphicon-check" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>促进土地交易过程。</p></div>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp mb-5">
+                    <div class="mb-5"><span class="glyphicon glyphicon-stats" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>为加密货币令牌持有者提供切实的解决方案。</p></div>
+                    <div class="mb-5"><span class="glyphicon glyphicon-grain" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>给农民和小生产者带来现金。</p></div>
+                    <div><span class="glyphicon glyphicon-wrench" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>使当前的农产品基础设施现代化。</p></div>
+                    </div>
+                    <div class="col-md-12 wow fadeInUp mb-5">
+                    <div><span class="glyphicon glyphicon-globe" style="font-size:50px; color:rgba(255,255,255,1.00)"></span><p>通过交换和管理作物在平台上播放。
+
+</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <div class="traceability">
+        	<div class="container">
+           		<div class="page-header">
+                    <h1>从陆地到叉子的可追溯性</h1>
+                 </div>
+            	<div class="row">
+                	<div class="col-md-6 mb-5 wow fadeInUp">
+                    <img  class="img-responsive" src="../img/land-to-fork.png" width="529" height="223" alt="fieldcoin traceability"/></div>
+                	<div class="col-md-6 mb-5 wow fadeInUp">
+                    <p>区块链上记录的输入和输出。</p>
+                    <p>提高准确度。</p>
+                    <p>节省信息更便宜。</p>
+                     <p>更安全，更可靠的数据。</p>
+                     <p>透明度和更好的客户知识。</p>
+                     <p>农民和顾客之间更好的协调。</p>
+                        <img src="../img/pictos/pictoplay.png" width="50" height="50" alt="fieldcoin"/> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Watch video</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Traceability From Land to Fork</h4>
+      </div>
+      <div class="modal-body embed-responsive embed-responsive-16by9">
+        <iframe width="570" height="330" src="https://www.youtube.com/embed/QyIgMlXs7yg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+  <div class="parallax protocole">
+    	<div class="container">
+        	<div class="page-header"><h1>协议图</h1></div>
+            <div class="row">
+            <div class="col-md-6 col-xs-12 mb-5 mt-5 img-responsive wow fadeInUp"><img src="../img/shema-graph.png" width="100%" alt="fieldcoin"/></div>
+            <div class="col-md-6 col-xs-12 mt-5 pl-3 pr-1 mb-5 wow fadeInUp">
+            <p class="plegend">1.推出预售和FCO <br />
+  2. Fieldcoin Ltd将Ethers与其他FIAT货币（Euro-USD）进行交换，以准备购买生态系统中的土地。<br />
+3.用户在交易所交换Fieldcoin代币。<br />
+4. Fieldcoin Ltd投资土地收购。<br />
+5. Fieldcoin Ltd投资土地资产估值。<br />
+6. Fieldcoin Ltd的场地在平台上进行估价和交易。<br />
+7.用户发送Fieldcoin代币购买和出售土地财产并为农业商业项目提供资金。<br />
+8.代币被退回Fieldcoin有限公司以获得所有权契约。ERC721 Token<br />
+9.土地所有者可以选择离开Fieldcoin Ent。 管理你的土地。<br />
+10.收到的代币在交换中用以太坊和菲亚特交换。</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+<div class="tradeback">
+	<div class="container">
+        <div class="page-header"><h1>Trade Back Token</h1></div>
+        <div class="row">
+        <div class="col-md-6 col-sm-12 mt-3 mb-5 wow fadeInUp">
+        <button class="accordion">Fieldcoin的Trade-Back-Token（TBT）有哪些好处？</button>
+        <div class="panel">
+ 		 <p>Fieldcoin允许Fieldcoin Tokens的所有者购买农业用地，其价值相当于生态系统资产的80％，但也包括：<br />
+- 以较低风险在加密货币交易所交换时使用您的令牌的可能性。<br />
+
+- 中长期多样化的良好手段，尤其是在市场不确定的情况下。<br />
+
+- 旋转加密货币的绝佳解决方案，尤其是在熊市期间</ p>
+		</div>
+
+        <button class="accordion">如何计算交易回报？</button>
+        <div class="panel">
+          <p>例如，如果Fieldcoin代币的总资本化价值低于生态系统实物资产总价值的80％，则代币所有者将被记入未来购买的收购。 该折扣优惠券或授予的信用对应于定义的阈值与令牌的市场价值之间的差异。
+
+为了确保流程的准确性，每个学期我们将在Fieldcoin生态系统中拥有一个外部资产验证公司，结果将通过社交媒体和Fieldcoin Ltd.网站与Fieldcoin社区共享。</p>
+        </div>
+        
+        <button class="accordion">它在实践中如何运作？</button>
+        <div class="panel">
+          <p>令牌持有者将在Fieldcoin平台上购买土地并支付网站上公布的总市场价格。 然后，他们将获得优惠券以购买土地以供将来购买。 债券的价值是令牌价格低于80％阈值与Fieldcoin生态系统资产实际价值之间的差额。 优惠券可用于获取属于Fieldcoin Ecosystem的平台上可用的属性。</p>
+        </div>
+        
+        <button class="accordion">模拟模型，遇见迈克</button>
+        <div class="panel">
+          <p>与迈克见面，他希望在加密货币市场的下降趋势中声称拥有价值10万美元的土地，从而使用他的回购期权：<br /><br  />
+以下是购买时市场的模拟模型：Fieldcoin生态系统中的总资产等于30,000,000美元。<br />
+
+- 目前的Token Fieldcoin市场价格为0.023美元<br />
+- Fieldcoin筹码的数量相当于7.5亿筹码<br />
+- Fieldcoin Token的总市值等于$ 17,250,000 <br /> <br />
+我们计算了令牌对Fieldcoin资产的比率，相当于17 250 000/30 000 000 = 57.5％<br />
+结果，优惠券价值是80％阈值与57.5％之间的差值。 在这种情况下，优惠券价值等于购买土地价格的22.5％。<br /> <br />
+迈克选择购买的土地价值10万美元。 因此，以当前价格购买芯片的土地将为迈克提供价值22,500美元的优惠券22.5％的折扣。</p>
+        </div>
+        </div>
+            <div class="col-md-6 col-sm-12 mt-3 mb-5 wow fadeInUp">
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/QzmUeos-Fwo?rel=0" title="Fieldcoin TBT" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                 </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+ <div class="visibility">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"><h2 class="ombre text-center mt-5 mb-5 wow fadeInUp">获得全球知名度，并获得国际客户的访问权限</h2></div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="crowfounding">
+        	<div class="container">
+            <div class="page-header"><h1>支付参与式融资</h1></div>
+            	<div class="row">
+                 <div class="col-md-5 col-xs-12 wow fadeInUp">
+                    <p class="mb-5">参与下一次农业转型。<br />
+使用创新的电子商务平台。<br />
+扩展Fieldcoin生态系统。<br />
+支持农场的发展。<br />
+获得您的资金+ 1％Fieldcoin代币。</p>
+                    <h3 class="mt-5">农业创新4.0</h3>
+                    <p class="mt-5">新的方法和技术。<br />
+新的加密货币交换工具。<br />
+农业生产的质量和多样化。<br />
+监控和IT管理。<br />
+基于区块链的注册系统。</p>
+    				
+                    </div>
+                    <div class="col-lg-6 col-xs-12 mt-5 mb-5 wow fadeInUp"><img src="../img/app-fieldcoin.jpg" width="100%" alt="fieldcoin"/></div>
+                </div>
+            </div>
+        </div> 
+        
+        
+     <div class="using">
+          	<div class="container">
+            	<div class="row">
+                    <div class="col-md-4 mt-5 mb-5 wow fadeInUp">
+                    	<div class="usingbox shado">
+                        <h3><span class="glyphicon glyphicon-map-marker"></span> 可用的属性</h3>
+                        <p style="text-align:left;">从众多酒店中选择一家。 发送快速申请以获得批准成为土地所有者或租户。</p>
+                        </div>
+                        </div>
+                        <div class="col-md-4 mt-5 mb-5 wow fadeInUp">
+                        <div class="usingbox shado">
+                        <h3><span class="glyphicon glyphicon-shopping-cart"></span> 在互联网上交流</h3>
+                        <p style="text-align:left;">Fieldcoin是一个平台，允许您使用世界各地的Fieldcoin代币在线租赁和购买有地房产。</p>
+                        </div>
+                        </div>
+                        <div class="col-md-4 mt-5 mb-5 wow fadeInUp">
+                        <div class="usingbox shado">
+                        <h3><span class="glyphicon glyphicon-sunglasses"></span> 管理服务</h3>
+                        <p style="text-align:left;">Fieldcoin为您提供位于您所在地区的有效管理服务，并负责所有手续。</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+<div class="view parallax protocole" data-jarallax='{"speed": 0.2}'>
+	<div class="container">
+    	<div class="page-header"><h1>Fieldcoin基金会</h1></div>
+		<div class="row">
+        	<div class="col-sm-6 col-lg-4 mb-5 mt-3 wow fadeInUp">
+            	<div class="text-center wow fadeInLeft">
+                <div class="icon_box mb-5"><span class="glyphicon glyphicon-flash" style="font-size:75px; color:rgba(255,255,255,1.00)"></span><span class="glyphicon glyphicon-tint" style="font-size:75px; color:rgba(255,255,255,1.00)"></span></div>
+                <p style="text-align:center;">访问水和电等基本设施。</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-lg-4 mb-5 mt-3 wow fadeInUp">
+                <div class="text-center">
+                <div class="icon_box mb-5"><span class="glyphicon glyphicon-road" style="font-size:75px; color:rgba(255,255,255,1.00)"></span></div>
+                <p style="text-align:center;">改善道路物流，基础设施建设。</p></div>
+        	</div>
+            
+            <div class="col-sm-6 col-lg-4 mb-5 mt-3 wow fadeInUp">
+                <div class="text-center wow fadeInRight">
+                <div class="icon_box mb-5"><span class="glyphicon glyphicon-education" style="font-size:75px; color:rgba(255,255,255,1.00)"></span></div>
+                <p style="text-align:center;">通过农业教育促进当地就业。</p></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+  
+<div class="visibility">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-12 wow fadeInUp"><h2 class="ombre text-center mt-5 mb-5">Fieldcoin Ltd将改善您的土地质量及其价值</h2></div>
+        </div>
+    </div>
+</div>
+
+<div class="view parallax protocole" data-jarallax='{"speed": 0.2}'>
+	<div class="container">
+    
+    	<div class="page-header">
+    		<h1>Fund Allocations</h1>
+        </div>
+    
+   		<div class="row">
+        	<div class="col-lg-6 mb-5 text-center">
+       			<h3>FCO Allocation of funds</h3>
+	 	    <img class="img-responsive" src="../img/distribution.png" width="794" height="384" alt="fund fieldcoin"/> </div>
+            <div class="col-lg-6 mb-5 text-center">
+       			<h3>Ecosystem Asset Reallocation</h3>
+	 	    <img class="img-responsive" src="../img/reallocation.png" width="690" height="323" alt="fund fieldcoin"/> </div>
+         </div>  
+         <div class="row">
+        	<div class="col-md-12 mb-5 wow fadeInUp">
+			<h3 class="text-center">FCO分销</h3>
+         		<table class="table">
+ 				 <tbody> 
+                  <tr class="head">
+                    <td></td>
+                    <td>M</td>
+                    <td>%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>FCO</td>
+                    <td>600 M</td>
+                    <td>60%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Token Bonus</td>
+                    <td>170 M</td>
+                    <td>17%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Token Reserve</td>
+                    <td>100 M</td>
+                    <td>10%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Bounty</td>
+                    <td>20 M</td>
+                    <td>2%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Team</td>
+                    <td>90 M</td>
+                    <td>9%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Private Sale</td>
+                    <td>20 M</td>
+                    <td>2%</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Total Supply</td>
+                    <td>1000 M</td>
+                    <td>100%</td>
+                  </tr>
+                </tbody>
+              </table>
+       		</div>
+     </div>
+   </div>
+</div>
+
+<div class="management">
+	<div class="container">
+	<div class="page-header"><h1>土地管理系统</h1></div>
+	<div class="row">
+    	<div class="col-lg-2"></div>
+        <div class="col-lg-8 img-responsive mb-5 align-items-center wow fadeInUp"><img src="../img/land-management.png" width="100%" alt="land management"/></div>
+        <div class="col-lg-2"></div>
+    </div>
+    </div>
+</div>
+
+<div id="rm" class="view intro parallax protocole" data-jarallax='{"speed": 0.2}'>
+			<div class="container">
+            	<div class="page-header"><h1>Road Map</h1></div>
+    			<div class="row">
+					<div class="mb-5" style="display:inline-block;width:100%; overflow-y:auto;">
+					<ul class="timeline timeline-horizontal">
+						<li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q3 2017</h4>
+									<p class="text-white">Agricultural Land and Blockchain market research</p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q4 2017</h4>
+									<p class="text-white">Concept<br />Creation</p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q1-Q3 2018</h4>
+									<p class="text-white">Development<br />Stage<br /></p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">March 2018</h4>
+									<p class="text-white">Project Released<br />to the public</p>
+								</div>
+							</div>
+						</li>
+                         <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">November 26th 2018</h4>
+									<p class="text-white">Presale</p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">February 5th 2018</h4>
+									<p class="text-white">Public sale</p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q1 2019</h4>
+									<p class="text-white text-left">Beta Platform<br />Release</p>
+								</div>
+							</div>
+						</li>
+                         <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q1 2019</h4>
+									<p class="text-white">First Land<br />Tokenized</p>
+								</div>
+							</div>
+						</li>
+                         <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q3 2019</h4>
+									<p class="text-white">First Agribusiness<br />Crowdfunding</p>
+								</div>
+							</div>
+						</li>
+                         <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q3 2019</h4>
+									<p class="text-white text-left">Phone Apps<br />Release</p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Q4 2019</h4>
+									<p class="text-white text-left">1st Coordination of Blockchain-based land registry systems</p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-item">
+							<div class="timeline-badge success"><i class="glyphicon glyphicon-time"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">2020</h4>
+									<p class="text-white text-left">1st Fieldcoin’s Eco-system Valorized land sold</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+         </div>
+     </div>
+
+
+<div class="team">
+<div class="container">
+<div class="page-header"><h1>The team</h1></div>
+<div class="row">
+	<div class="col-lg-4 col-sm-6">
+
+            <div class="card hovercard wow fadeInUp" data-wow-duration="1.1s" data-wow-delay="0.1s">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img src="../img/team/Marc-couzic.png" width="200" height="200" alt=""/>
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Marc Couzic</h3>
+                    </div>
+                    <div class="desc1">Founder & CEO</div>
+                    <div class="desc">UVSQ, PARIS 8, AIT, HERO, ICEX, GMA,</div> 
+                    <div class="desc">IT entrepreneur and Agribusiness expert</div>
+                </div>
+                <div class="bottom">
+                    <a href="https://www.linkedin.com/in/marc-couzic-fieldcoin/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+	</div>
+    	<div class="col-lg-4 col-sm-6">
+
+            <div class="card hovercard wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                <img src="../img/team/Alexpalu.png" width="200" height="200" alt=""/> 
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Alexandre Palubniak</h3>
+                    </div>
+                    <div class="desc1">Web Project Manager</div>
+                    <div class="desc">12 years Web and Art Director.</div> 
+                    <div class="desc">Designer in multimedia visual communication</div>
+                </div>
+               <div class="bottom">
+                   <a href="https://www.linkedin.com/in/alexandre-palubniak-89b953157/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+	</div>
+        	<div class="col-lg-4 col-sm-6">
+
+            <div class="card hovercard wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                <img src="../img/team/Madou-K.png" width="200" height="200" alt=""/> 
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Mamadou Konaté</h3>
+                    </div>
+                    <div class="desc1">Lawyer and PHD</div>
+                    <div class="desc">Corporate,</div>
+                     <div class="desc">Tax and Banking Law</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/mamadou-konat%C3%A9-3986063b/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+	</div>
+    <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/rayan.png" width="200" height="200" alt="Rayane Hocine"/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Rayane Hocine</h3>
+                    </div>
+                    <div class="desc1">Marketing Expert</div>
+                    <div class="desc">Inseec and HEC Paris,</div>
+                     <div class="desc"> Magna Numeris, SureRemit, Humaniq</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/rayanehocine/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+<div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.4s">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/jani-viellard.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Jani Viellard</h3>
+                    </div>
+                    <div class="desc1">Acquisition Manager</div>
+                    <div class="desc">Restaurant manager,</div>
+                     <div class="desc">crypto trader and land investor</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/jani-viellard-a83764133/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div> 
+    <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/Jeremy-J.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Jeremie Joncas</h3>
+                    </div>
+                    <div class="desc1">Chief Operating Officer</div>
+                    <div class="desc">SME Entrepreneur</div>
+                     <div class="desc">and crypto trader</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/jeremie-joncas-1502b7157/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+    </div>
+    <div class="page-header"><h1>Assistance team</h1></div>
+    <div class="row">
+    <div class="col-lg-4 col-sm-3">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/damien-de-riberolles.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Damien de Riberolles</h3>
+                    </div>
+                    <div class="desc1">Land Expert Manager</div>
+                    <div class="desc">Master of Agriculture & Environment</div>
+                     <div class="desc">15 years land management experience</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/damien-de-riberolles-1144417a/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+    <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/lee.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Lee Raj</h3>
+                    </div>
+                    <div class="desc1">Solidity Developer</div>
+                    <div class="desc">ERC725, GN Compass,</div>
+                     <div class="desc">Moneo</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/leeraj/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+     <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/sub.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Subramanian Venkatesan</h3>
+                    </div>
+                    <div class="desc1">Blockchain Architect</div>
+                    <div class="desc">Vemba, Dice Money,</div>
+                     <div class="desc">Nothern Block</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/subramanian1/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+
+    </div>
+    
+    <div class="row">    
+    <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/david-m.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>David Marandai</h3>
+                    </div>
+                    <div class="desc1">Eastern European Ambassador</div>
+                    <div class="desc"><br /></div>
+                     <div class="desc">Renault</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/david-marandai-083b6164/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+   
+     <div class="col-lg-4 col-sm-3">
+	<div class="card hovercard">
+    	<div class="cardheader wow fadeInUp"></div>
+        	<div class="avatar"><img src="../img/team/Miguel.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>José Miguel Núñez</h3>
+                    </div>
+                    <div class="desc1">Motion Designer</div>
+                    <div class="desc"><br /></div>
+                     <div class="desc">Cannes Lions shortlist</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/jose-miguel-n%C3%BA%C3%B1ez-checo-23164090/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+         <div class="col-lg-4 col-sm-3">
+	<div class="card hovercard">
+    	<div class="cardheader wow fadeInUp"></div>
+        	<div class="avatar"><img src="../img/team/danny-montaner.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Danny Montaner</h3>
+                    </div>
+                    <div class="desc1">Development Manager</div>
+                    <div class="desc">WC and E-sports Player of the Year 2005
+Gaming and Software Manager</div>
+                     <div class="desc">Licensed Realtor in USA Florida</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/danielmontaner/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+    </div>
+   <div class="page-header"><h1>Contributors</h1></div>
+   <div class="row">
+   <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/ali-a.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Ali Ayyash</h3>
+                    </div>
+                    <div class="desc1">Technical Expert</div>
+                    <div class="desc">Amazon, Google,</div>
+                     <div class="desc">Lumeos, Beetoken.</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/akayyash/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+        <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/hayat.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Dr Hayat Ullah</h3>
+                    </div>
+                    <div class="desc1">Agricultural Expert</div>
+                    <div class="desc">PHD Scholar 9 international</div>
+                     <div class="desc">publication awards.</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/hayat-ullah-3841b8121/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+        <div class="col-lg-4 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/david-teruzzi.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>David Teruzzi</h3>
+                    </div>
+                    <div class="desc1">Technical Expert</div>
+                    <div class="desc">EOS France, Carrefour, Domraider Flashmoni,</div>
+                     <div class="desc">BTU protocol ERC808.</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/david-teruzzi-8667965/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+        <div class="col-lg-3 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/joachim-lebrun.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Joachim Lebrun</h3>
+                    </div>
+                    <div class="desc1">ICO Advisor</div>
+                    <div class="desc">Veolia, Hydrocoin,</div>
+                     <div class="desc">Connecty.</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/joachim-lebrun-lion-a732ab9a/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+        <div class="col-lg-3 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/elysabeth-waddington.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Elizabeth Waddington</h3>
+                    </div>
+                    <div class="desc1">Environnemental Expert</div>
+                    <div class="desc">150+ Articles about permaculture </div>
+                     <div class="desc">and environment.</div>
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/elizabeth-waddington-a3066610b/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+        <div class="col-lg-3 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/ali-yazbek.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Ali Yazbek</h3>
+                    </div>
+                    <div class="desc1">Public Relations</div>
+                    <div class="desc"><br /></div>
+                    <div class="desc">CEO Journal du Token</div>
+                     
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/aliyazbek/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+    <div class="col-lg-3 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/ChenSiYuan.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Chen SiYuan</h3>
+                    </div>
+                    <div class="desc1">Chinese Relations</div>
+                    <div class="desc">Baanx, Dataeum</div>
+                    <div class="desc">Socialwallet, Buddy</div>
+                     
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/chensiyuan1986/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/Waqas-Nakwha.png" width="200" height="200" alt="Waqas Nakwha"/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Waqas Nakwha</h3>
+                    </div>
+                    <div class="desc1">E-commerce Expert</div>
+                    <div class="desc">CEO of KartBlock</div>
+                    <div class="desc">and 27avenue</div>
+                     
+                </div>
+<!--               <div class="bottom">
+                     <a href="#" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>-->
+          </div>
+	</div>
+        <div class="col-lg-6 col-sm-6">
+	<div class="card hovercard wow fadeInUp">
+    	<div class="cardheader"></div>
+        	<div class="avatar"><img src="../img/team/Corey-Jackson.png" width="200" height="200" alt=""/></div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Corey Jackson</h3>
+                    </div>
+                    <div class="desc1">Development Advisor</div>
+                    <div class="desc">Co-founder Creata, Advisor MyCryptoBank</div>
+                    <div class="desc">Vendio, AvailCom, UrbitData.</div>
+                     
+                </div>
+               <div class="bottom">
+                     <a href="https://www.linkedin.com/in/coreyjackson1/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+            </div>
+          </div>
+	</div>
+    </div>
+   </div>
+</div>
+     
+<div class="asseenon">
+<div class="container">
+<div class="page-header"><h1>Featured on</h1></div>
+<div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://bitcoinexchangeguide.com/fieldcoin-token-ico/" target="_blank"><img src="../img/Logos/bitcoin-exchange-guide.jpg" class="img-responsive shado" width="250" height="98" alt="bitcoin exchange guide"/></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://www.icoexaminer.com/ico-news/organic-farming-will-improve-in-the-blockchain-age-fieldcoin-ceo/" target="_blank"><img src="../img/Logos/icoexaminer.jpg" class="img-responsive shado" width="250" height="98" alt="icoexaminer"/></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://medium.com/@marc.couzic/the-first-fco-field-coin-offering-d34f14e33e71" target="_blank"><img src="../img/Logos/medium.jpg" class="img-responsive shado" width="250" height="98" alt="medium"/></a>
+        </div>
+         <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://cryptocoinspy.com/could-a-cryptocurrency-backed-by-land-be-the-worlds-first-complete-currency/" target="_blank"><img src="../img/Logos/cryptocoin.jpg" class="img-responsive shado" width="250" height="98" alt="cryptocoinspy"/></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://www.tech.london/startups/fieldcoin" target="_blank"><img src="../img/Logos/techlondon.jpg" class="img-responsive shado" width="250" height="98" alt="tech london"/></a>
+        </div>
+         <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://www.journaldutoken.com/actu/lagriculture-biologique-passe-a-la-vitesse-superieure-a-lere-de-la-blockchain-pdg-de-fieldcoin/" target="_blank"><img src="../img/Logos/journal-du-token.jpg" class="img-responsive shado" width="250" height="98" alt="journaldutoken"/></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-4 py-3">
+        <a href="https://blog.goodaudience.com/will-cryptocurrencies-stop-the-next-financial-crisis-ceb47d51b039" target="_blank"><img src="../img/Logos/goodaudience.jpg" class="img-responsive shado" width="250" height="98" alt="good audience"/></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-4 mt-3 mb-8">
+        <a href="https://medium.com/coinmonks/the-erc-721-standard-and-its-unique-tokens-6280b1a0c656" target="_blank"><img src="../img/Logos/coinmonk.jpg" class="img-responsive shado" width="250" height="98" alt="coinmonk"/></a>
+        </div>
+        
+</div> 
+</div>   
+</div>
+
+
+<div class="pied">
+<div class="container">
+<div class="row">
+<div class="col-md-12 mt-5 mb-5">
+<div class="row">
+    <div class="col-xs-12 col-md-4 mb-5"><a href="index.html">© Fieldcoin Ltd 保留所有权利 2018</a></div>
+    <div class="col-xs-12 col-md-3 mb-5"><a href="flc-terms-of-use.html">Terms of use</a><br /><a href="flc-privacy-policy.html">Privacy policy</a></div>
+    <div class="col-xs-12 col-md-5 mb-5">
+        <ul class="social-network social-circle">
+            <li><a href="https://www.facebook.com/fieldcoin/" target="_blank" class="icoFacebook wow fadeInRight" data-wow-duration="1.1s" data-wow-delay="0.1s" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/Fieldcoin" target="_blank" class="icoTwitter wow fadeInRight"  data-wow-duration="1.2s" data-wow-delay="0.2s" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/11339899/" target="_blank" class="icoLinkedin wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.3s" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://fieldcoin.slack.com/" target="_blank" class="icoSlack wow fadeInRight" data-wow-duration="1.4s" data-wow-delay="0.4s" title="Slack"><i class="fa fa-slack"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC6_aNHKd-nMTduWb1ACmnhA" target="_blank" class="icoYoutube wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://t.me/fieldcoin" target="_blank" class="icoTelegram wow fadeInRight" data-wow-duration="1.6s" data-wow-delay="0.6s" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+            <li><a href="https://bitcointalk.org/" target="_blank" class="bitcointalk wow fadeInRight" data-wow-duration="1.7s" data-wow-delay="0.7s" title="Bitcointalk"><i class="fa fa-btc"></i></a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+     
+</main>
+<a href="#0" class="cd-top">Haut</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/scroll.js"></script>
+    <script type="text/javascript" src="../js/particles.js"></script>
+	<script src="../js/app.js"></script>
+
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var panels = document.getElementsByClassName("panel");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var panel = this.nextElementSibling;
+
+    if (panel.style.maxHeight){
+      this.classList.toggle("active");
+      panel.style.maxHeight = null;
+
+    } else {
+
+        $(panels).each(function(index){
+            panels[index].style.maxHeight = null;
+            if($(acc[index]).hasClass("active")){
+                acc[index].classList.toggle("active");              
+            }
+        });
+      this.classList.toggle("active");
+      panel.style.maxHeight = panel.scrollHeight + "px";
+
+    } 
+  });
+}
+</script>
+
+  <script src="../js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+  <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    <script>
+        
+        new WOW().init();
+
+        $(document).ready(function($) {  
+
+            // site preloader -- also uncomment the div in the header and the css style for #preloader
+            //$(window).load(function(){
+                //$(window).load(function(){
+                setInterval(function(){
+                    $('#preloader').fadeOut('slow');
+                },300);
+
+        });
+    
+    </script>
+</body>
+</html>
